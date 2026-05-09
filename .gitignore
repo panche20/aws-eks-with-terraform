@@ -1,0 +1,26 @@
+# Terraform working directories
+.terraform/
+**/.terraform/
+
+# Terraform state and local plan output
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfplan
+*.tfplan.json
+
+# Local variable/backend files can contain account-specific or secret values
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+backend.hcl
+
+# Terraform crash/debug logs
+crash.log
+crash.*.log
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json

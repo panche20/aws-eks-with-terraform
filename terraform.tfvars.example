@@ -1,0 +1,13 @@
+aws_region          = "eu-north-1"
+project             = "url-shortener"
+environment         = "dev"
+vpc_cidr            = "10.2.0.0/16"
+azs                 = ["eu-north-1a", "eu-north-1b"]
+kubernetes_version  = "1.30"
+node_instance_types = ["t3.small"]
+capacity_type       = "ON_DEMAND"
+node_desired_size   = 2
+node_min_size       = 1
+node_max_size       = 4
+app_image_tag       = "v1.0.5"
+github_user         = "your-github-username"
